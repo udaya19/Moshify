@@ -216,6 +216,10 @@ a{
     color: white;
 }
 
+.btn--streched{
+    padding: 1rem 6rem;
+}
+
 .btn--accent:hover{
     background-color: #ec3000;
 }
@@ -482,3 +486,44 @@ a{
     }
 }
 /*End of testimonials*/ 
+
+/*Call out*/
+
+.callout{
+    padding: 4rem;
+    border-radius: 5px;
+}
+
+.callout--primary{
+    background-color: var(--color-primary);
+}
+
+.callout__heading{
+    color: white;
+    margin-top: 0;
+    font-size: 3rem;
+}
+
+.callout .btn{
+    justify-self: center;
+    align-self: center;
+}
+
+.callout__content{
+    text-align: center;
+}
+
+@media screen and (min-width:768px) {
+    .callout__content{
+        text-align: left;
+    }
+    .callout .btn{
+        justify-self: start;
+        margin:0 2rem;
+    }
+    .callout .grid--1x2{
+        grid-template-columns: 1fr auto;
+    }
+}
+
+/*End of callouts*/
