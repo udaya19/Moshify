@@ -713,3 +713,16 @@ a{
         grid-template-columns: repeat(auto-fit,minmax(10rem,1fr));
     }
 }
+
+/*End of domain block*/
+
+/*Plans block*/
+
+.block-plans .grid{
+    gap: 4rem;
+}
+
+.block-plans .card{
+    max-width: 500px;
+}
+
